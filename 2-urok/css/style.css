@@ -1,0 +1,35 @@
+h1 {
+  color: red;
+}
+img {
+  width: 150px;
+}
+.home-text {
+  width: 100px;
+  color: #fff;
+  background-color: blue;
+  margin-bottom: 100px;
+}
+p span {
+  color: red;
+}
+h2 {
+  color: #fff;
+  background-color: green;
+  padding: 5px;
+}
+.big-h2 {
+  padding: 45px;
+}
+.about-forms {
+  width: 671px;
+  text-align: center;
+}
+ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+li {
+  border: 1px solid #000;
+  font-size: 30px;
+}
