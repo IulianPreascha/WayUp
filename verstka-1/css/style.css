@@ -147,3 +147,31 @@ p {
     padding-top: 173px;
     padding-bottom: 190px;
 }
+.form {
+  margin-top: 40px;
+}
+.input {
+  width: 474px;
+  border: 1px solid #bfb8d1;
+  border-radius: 100px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  height: 54px;
+  padding-left: 38px;
+  outline: none;
+}
+.btn-form {
+  border: 0;
+  cursor: pointer;
+  display: inline;
+  margin-left: 11px;
+}
+.footer {
+  padding: 33px 0;
+  background: #201b2d;
+}
+.credits {
+  color: #d4ceed;
+  font-size: 14px;
+  margin: 0;
+}
