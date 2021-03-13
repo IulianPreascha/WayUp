@@ -107,45 +107,45 @@ p {
   transition: all 0.5s ease;
 }
 .btn:hover {
-    background: #d9860e;
+  background: #d9860e;
 }
 .desktop {
-    margin-top: 72px;px
+  margin-top: 72px;
 }
 .learn {
-    padding-top: 108px;
-    padding-bottom: 120px;
+  padding-top: 108px;
+  padding-bottom: 120px;
 }
 .section-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 .skills {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 .skill {
-    width: 350px;
-    background: url('../img/icon1.jpg') no-repeat left top;
-    padding-left: 100px;
+  width: 350px;
+  background: url("../img/icon1.jpg") no-repeat left top;
+  padding-left: 100px;
 }
 .skill-title {
-    font-size: 18px;
+  font-size: 18px;
 }
 .skill-text {
-    margin-top: 7px;
+  margin-top: 7px;
 }
 .skill-free {
-    width: 380px;
-    background: url('../img/icon2.jpg') no-repeat left top;
+  width: 380px;
+  background: url("../img/icon2.jpg") no-repeat left top;
 }
 .skill-change {
-    background: url('../img/icon3.jpg') no-repeat left top;
+  background: url("../img/icon3.jpg") no-repeat left top;
 }
 .mail {
-    background: #efecf4;
-    padding-top: 173px;
-    padding-bottom: 190px;
+  background: #efecf4;
+  padding-top: 173px;
+  padding-bottom: 190px;
 }
 .form {
   margin-top: 40px;
