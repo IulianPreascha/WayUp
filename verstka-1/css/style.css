@@ -1,0 +1,149 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.65em;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: rgba(71, 62, 95, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(71, 62, 95, 1) 0%,
+    rgba(42, 34, 64, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(71, 62, 95, 1)),
+    color-stop(100%, rgba(42, 34, 64, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(71, 62, 95, 1) 0%,
+    rgba(42, 34, 64, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(71, 62, 95, 1) 0%,
+    rgba(42, 34, 64, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(71, 62, 95, 1) 0%,
+    rgba(42, 34, 64, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(71, 62, 95, 1) 0%,
+    rgba(42, 34, 64, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2a2240', GradientType=1 );
+  padding-top: 100px;
+  padding-bottom: 225px;
+  color: #fff;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.offer {
+  margin-top: 176px;
+  width: 490px;
+}
+.title {
+  font-size: 36px;
+}
+.title span {
+  color: #48ed8e;
+}
+.intro {
+  margin-top: 30px;
+  margin-bottom: 36px;
+  width: 380px;
+}
+.btn {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #ed9619;
+  border-radius: 100px;
+  display: block;
+  width: 205px;
+  padding: 20px 0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #d9860e;
+}
+.desktop {
+    margin-top: 72px;px
+}
+.learn {
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+.section-title {
+    font-size: 30px;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.skill {
+    width: 350px;
+    background: url('../img/icon1.jpg') no-repeat left top;
+    padding-left: 100px;
+}
+.skill-title {
+    font-size: 18px;
+}
+.skill-text {
+    margin-top: 7px;
+}
+.skill-free {
+    width: 380px;
+    background: url('../img/icon2.jpg') no-repeat left top;
+}
+.skill-change {
+    background: url('../img/icon3.jpg') no-repeat left top;
+}
+.mail {
+    background: #efecf4;
+    padding-top: 173px;
+    padding-bottom: 190px;
+}
