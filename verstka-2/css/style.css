@@ -155,4 +155,65 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c4ff', end
     font-size: 14px;
     margin: 0;
   }
+  /* Responsible */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .header {
+    padding-top: 10px;
+  }
+  .offer {
+    margin-top: 50px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .offer {
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .first {
+    display: block;
+    width: 549px;
+    margin: 72px auto 0;
+  }
+  .wishes {
+    flex-direction: column;
+  }
+  .wish {
+    width: auto;
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .first {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+  .btn-form {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
   
