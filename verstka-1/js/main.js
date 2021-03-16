@@ -25,4 +25,22 @@ let mas = [
     'Preasca',
     25
 ];
-alert(mas[0]);
+// alert(mas[0]);
+
+function doMagic () {
+    alert(5 + 5);
+}
+
+// doMagic();
+
+let btn = document.getElementById('btn');
+btn.onclick = function (e) {
+    e.preventDefault();
+    let text = document.querySelector('.intro');
+    text.classList.toggle('red');
+    let img = document.querySelector('.desktop');
+    img.style.display = 'none';
+    document.querySelector('.skill-change').style.marginleft = '50px';
+}
+
+
