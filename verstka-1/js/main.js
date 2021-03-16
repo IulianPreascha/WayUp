@@ -42,5 +42,13 @@ btn.onclick = function (e) {
     img.style.display = 'none';
     document.querySelector('.skill-change').style.marginleft = '50px';
 }
+$(window).scroll(function() {
+    $('#expect h2').each(function(){
+        let imagePos = $(this).offset().top;
 
+        let topOfWindow = $(window).scrollTop();
+        if(imagePos < topOfWindow + 650) {
+            $(this).addClass('fadeInLeft');
+        }
+})
 
