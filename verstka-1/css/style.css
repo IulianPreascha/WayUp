@@ -78,9 +78,10 @@ p {
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 72px;
 }
 .offer {
-  margin-top: 176px;
   width: 490px;
 }
 .title {
@@ -108,9 +109,6 @@ p {
 }
 .btn:hover {
   background: #d9860e;
-}
-.desktop {
-  margin-top: 72px;
 }
 .learn {
   padding-top: 108px;
@@ -181,6 +179,9 @@ p {
 @media screen and (max-width: 1200px) {
   .container {
     width: 960px;
+  }
+  p {
+    width: auto;
   }
 }
 @media screen and (max-width: 992px) {
