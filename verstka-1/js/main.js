@@ -1,54 +1,79 @@
-// let a = 10;
+var name = 'Петья';
+var surname = 'Васичкин';
+var age = 25;
 
-// a = prompt("scrie ceva");
-// if (a == 10) {
-//     alert('a = 10');
+var c = false;
+var d = 5;
+
+// a = 456;
+
+// a = prompt ('Напишите значение переменной a');
+
+// if (a == 37) {
+// 	alert ('a = 37');
 // } else {
-//     alert("alt ceva");
+// 	alert ('что-то другое')
 // }
 
-// for (let i = 0; i < 5; i++) {
-//     alert(i);
+// for (var i = 0;i < 5;i++) {
+// 	alert (i);
 // }
 
 
-
-let user = {
-    'name': 'Iulian',
-    'surname': 'Preasca',
-    'age': 18
-}
-// alert(user.age);
-
-let mas = [
-    'Iulian',
-    'Preasca',
-    25
-];
-// alert(mas[0]);
-
-function doMagic () {
-    alert(5 + 5);
+var user = {
+	'name': 'Петья',
+	'surname': 'Васичкин',
+	'age': 25,
+	'getElementById' : function () {}
 }
 
-// doMagic();
+// alert ( document.getElementById );
 
-let btn = document.getElementById('btn');
+var mas = ['Петья', 'Васичкин', 25];
+
+// alert (mas[2]);
+
+
+
+function doMagic (a,dfdf) {
+	alert (a + dfdf);
+}
+
+// doMagic(10,5);
+// doMagic(1,1);
+
+
+
+var btn = document.getElementById('btn');
+
 btn.onclick = function (e) {
-    e.preventDefault();
-    let text = document.querySelector('.intro');
-    text.classList.toggle('red');
-    let img = document.querySelector('.desktop');
-    img.style.display = 'none';
-    document.querySelector('.skill-change').style.marginleft = '50px';
+	e.preventDefault();
+	var text = document.querySelector('p.intro');
+	text.classList.add('red');
+	var img = document.querySelector('.desktop');
+	img.style.display = 'none';
+	document.querySelector('.skill-change').style.marginLeft = '50px';
 }
-$(window).scroll(function() {
-    $('#expect h2').each(function(){
-        let imagePos = $(this).offset().top;
 
-        let topOfWindow = $(window).scrollTop();
-        if(imagePos < topOfWindow + 650) {
-            $(this).addClass('fadeInLeft');
-        }
+$(function () {
+	$(window).scroll(function() {
+	    $('#learn .section-title').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("fadeInLeft");
+	        }
+	    });
+	});
+	$(window).scroll(function() {
+	    $('.skill-free').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("fadeInUp");
+	        }
+	    });
+	});
 })
-
